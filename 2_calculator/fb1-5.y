@@ -12,7 +12,7 @@ calclist: /* nothing */
  ;
  
 exp: factor
- | exp ADD factor { $$ = $1 + $3; }
+ | exp ADD factor { $$ = $1 + $3; printf("found addition\n") }
  | exp SUB factor { $$ = $1 - $3; }
  ;
 

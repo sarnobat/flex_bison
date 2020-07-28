@@ -1321,7 +1321,7 @@ yyreduce:
 
   case 5:
 #line 15 "fb1-5.y"
-    { (yyval) = (yyvsp[(1) - (3)]) + (yyvsp[(3) - (3)]); ;}
+    { (yyval) = (yyvsp[(1) - (3)]) + (yyvsp[(3) - (3)]); printf("found addition\n") ;}
     break;
 
   case 6:
