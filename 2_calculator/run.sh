@@ -1,4 +1,4 @@
 bison -d fb1-5.y
 flex fb1-4.l
-cc lex.yy.c -ll
+cc -o calc fb1-5.tab.c lex.yy.c -ll
 ./a.out
